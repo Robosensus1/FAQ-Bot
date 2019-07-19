@@ -1,0 +1,73 @@
+intents:
+  - greet_eng
+  - goodbye_eng
+  - about_Juji_eng
+  - sponsor_of_Juji_eng
+  - cost_of_Juji_eng
+  - no_of_words_eng
+  - AI_eng
+  - about_Juji_eng+sponsor_of_Juji_eng
+  - greet_chinese
+  - goodbye_chinese
+  - about_Juji_chinese
+  - sponsor_of_Juji_chinese
+  - cost_of_Juji_chinese
+  - no_of_words_chinese
+  - AI_chinese
+  - about_Juji_eng+sponsor_of_Juji_chinese
+
+
+actions:
+- utter_greet_eng
+- utter_goodbye_eng
+- utter_about_Juji_eng
+- utter_sponsor_of_Juji_eng
+- utter_cost_of_Juji_eng
+- utter_no_of_words_eng
+- utter_AI_eng
+- utter_greet_chinese
+- utter_goodbye_chinese
+- utter_about_Juji_chinese
+- utter_sponsor_of_Juji_chinese
+- utter_cost_of_Juji_chinese
+- utter_no_of_words_chinese
+- utter_AI_chinese
+
+
+templates:
+  utter_greet_eng:
+    - text: "Hey, how can I help you?"
+  utter_goodbye_eng:
+    - text: "Talk to you later!"
+    - text: "Goodbye :("
+    - text: "Bye!"
+    - text: "Have a great day!"
+  utter_about_Juji_eng:
+    - text: "Juji is a startup located in San Jose. It specializes in creating responsible and empathetic AI that can understand and help people. "
+  utter_sponsor_of_Juji_eng:
+    - text: "Juji has several investors and sponsors. For example, DigitX partners is a main one"
+  utter_cost_of_Juji_eng:
+    - text: "It depends on your tasks, how complex it is and how many people will use it."
+  utter_no_of_words_eng:
+    - text: "It depends on the type of analysis you are looking for."
+  utter_AI_eng:
+    - text: "Here is what I found on Wikipedia: https://en.wikipedia.org/wiki/Artificial_Intelligence"
+    
+  utter_greet_chinese:
+    - text: "嘿，我该怎么帮你？"
+  utter_goodbye_chinese:
+    - text: "我们回聊！"
+    - text: "再见 :("
+    - text: "再见!"
+    - text: "祝你有美好的一天！"
+  utter_about_Juji_chinese:
+    - text: "聚集是一家位于圣何塞的创业公司。它专注于创建能够理解和帮助人们的负责任和移情的AI。 "
+  utter_sponsor_of_Juji_chinese:
+    - text: "聚集有几个投资者和赞助商。例如，DigitX合作伙伴是主要合作伙伴"
+  utter_cost_of_Juji_chinese:   
+    - text: "这取决于你的任务，它是多么复杂，有多少人会使用它。"
+  utter_no_of_words_chinese:
+    - text: "这取决于您正在寻找的分析类型。"
+  utter_AI_chinese:
+    - text: "这是我在维基百科上发现的： https://en.wikipedia.org/wiki/Artificial_Intelligence"
+  
